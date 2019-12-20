@@ -1,0 +1,27 @@
+{
+  "name": "schlueter.github.io",
+  "version": "1.0.0",
+  "description": "Schlueter's BS",
+  "main": "index.html",
+  "scripts": {
+    "test": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/schlueter/schlueter.github.io.git"
+  },
+  "author": "Brandon Schlueter",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/schlueter/schlueter.github.io/issues"
+  },
+  "homepage": "https://github.com/schlueter/schlueter.github.io#readme",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.19.1",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1"
+  }
+}
