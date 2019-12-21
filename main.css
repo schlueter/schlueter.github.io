@@ -2,19 +2,11 @@ body {
     margin: 0;
 }
 
-.container {
+body > header,
+body > section,
+body > footer {
     margin: 0 auto;
     width: 90%;
     max-width: 1152px;
     position: relative;
-}
-
-.column {
-    padding: 10px;
-    height: 100%;
-}
-
-.column:first-child {
-    width: 30%;
-    max-width: 300px;
 }
