@@ -10,3 +10,7 @@ body > footer {
     max-width: 1152px;
     position: relative;
 }
+
+footer {
+    font-style: italic;
+}
