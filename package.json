@@ -4,7 +4,7 @@
   "description": "Schlueter's BS",
   "main": "index.html",
   "scripts": {
-    "test": "eslint ."
+    "test": "standard && eslint ."
   },
   "repository": {
     "type": "git",
