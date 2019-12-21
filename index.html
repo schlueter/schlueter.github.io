@@ -3,11 +3,38 @@
     <title>Schlueter's BS</title>
     <base href="https://schlueter.dev/">
     <meta charset="UTF-8">
-    <meta name="description" content="author: B.S. Schlueter">
+    <meta name="keywords" content="computing, computer studies, computer" />
+    <meta name="description" content="My thoughts and projects" />
+    <meta name="author" content="Brandon Schlueter" />
     <link type="text/css" rel="stylesheet" href="main.css">
 </head>
 <body>
-    <header></header>
-    <nav></nav>
+    <header>
+        <h1>Schlueter's BS</h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#posts">All Posts</a>
+                    <form action="#" onsubmit="return false;">
+                        <select onchange="self.location.href = '#' + options[selectedIndex].value;">
+                            <option>--post navigation--</option>
+                            <option value="what-is-this">What is this?</option>
+                        </select>
+                    </form>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <article>
+            <header>
+                <h2>What is this?</h2>
+            </header>
+            <p>A website for me to braindump to.</p>
+        </article>
+    </section>
+    <footer>
+        <span>Made by Brandon Schlueter</span>
+    </footer>
     <script src="main.js"></script>
 </body>
