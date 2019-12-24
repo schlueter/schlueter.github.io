@@ -1,5 +1,8 @@
-/.git/
-/public/
-/node_modules/
 /.dockerignore
+/.eslintrc.js
+/.git/
+/CNAME
 /Dockerfile
+/README.md
+/node_modules/
+/public/
