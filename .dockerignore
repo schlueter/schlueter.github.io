@@ -1,0 +1,5 @@
+/.git/
+/public/
+/node_modules/
+/.dockerignore
+/Dockerfile
